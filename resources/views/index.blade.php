@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{ asset('assets/img/favicon.png') }}" rel="icon">
-    <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+    <link href="{{ asset('assets/img/logo.png') }}" rel="icon">
+    <link href="{{ asset('assets/img/logo.png') }}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -28,6 +28,9 @@
 
     <!-- Template Main CSS File -->
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
 
     <!-- =======================================================
   * Template Name: iPortfolio
@@ -48,7 +51,7 @@
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    @include('partials.top')
+    @include('partials.home')
     <!-- End Hero -->
 
     <main id="main">
@@ -57,9 +60,9 @@
         @include('partials.about')
         <!-- End About Section -->
 
-        <!-- ======= Facts Section ======= -->
-        @include('partials.fact')
-        <!-- End Facts Section -->
+        <!-- ======= Education Section ======= -->
+        @include('partials.education')
+        <!-- End Education Section -->
 
         <!-- ======= Skills Section ======= -->
         @include('partials.skill')

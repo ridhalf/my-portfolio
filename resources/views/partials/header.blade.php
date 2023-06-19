@@ -2,14 +2,18 @@
     <div class="d-flex flex-column">
 
         <div class="profile">
-            <img src="{{ asset('assets/img/profile-img.jpg') }}" alt="" class="img-fluid rounded-circle">
-            <h1 class="text-light"><a href="index.html">Alex Smith</a></h1>
+            <img src="{{ asset('assets/img/profile.jpeg') }}" alt="" class="img-fluid rounded-circle">
+            <h1 class="text-light"><a href="index.html">Ridhal Fajri Yz</a></h1>
             <div class="social-links mt-3 text-center">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a class="twitter cursor-hand" onclick="location.href='https://twitter.com/coderbodo'"><i
+                        class="bx bxl-twitter"></i></a>
+                <a class="facebook cursor-hand" onclick="location.href='https://www.facebook.com/ridhal.fajri.7'"><i
+                        class="bx bxl-facebook"></i></a>
+                <a class="instagram cursor-hand" onclick="location.href='https://www.instagram.com/ridhall_/'"><i
+                        class="bx bxl-instagram"></i></a>
+                <a class="linkedin cursor-hand"
+                    onclick="location.href='https://www.linkedin.com/in/ridhal-fajri-296a11223/'"><i
+                        class="bx bxl-linkedin"></i></a>
             </div>
         </div>
 
